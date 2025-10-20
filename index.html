@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montréal Élections 2021 - Résultats par District Électoral</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js" type="text/javascript"></script>
+
+<base target="_blank">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Résultat élections municipales<br>Ville de Montréal 2021</h1>
+            <p class="subtitle">Résultats officiels par district électoral - 7 novembre 2021</p>
+        </header>
+
+        <section class="mayor-section">
+            <h2>Élection du Maire de Montréal</h2>
+            <p>Participation: <strong>38.32%</strong> (425,766 votes exprimés / 1,111,100 électeurs inscrits)</p>
+            <div class="mayor-results" id="mayorResults">
+                <div class="loading">Chargement des résultats...</div>
+            </div>
+        </section>
+
+        <section class="filters">
+            <h3><i class="fas fa-filter"></i> Filtrer les Districts</h3>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous les Districts</button>
+                <button class="filter-btn" data-filter="Projet Montréal">Projet Montréal</button>
+                <button class="filter-btn" data-filter="Ensemble Montréal">Ensemble Montréal</button>
+                <button class="filter-btn" data-filter="Mouvement Montréal">Mouvement Montréal</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Rechercher un district ou arrondissement..." id="searchBox">
+        </section>
+
+        <section class="legend">
+            <h3><i class="fas fa-info-circle"></i> Légende</h3>
+            <div class="legend-items">
+                <div class="legend-item">
+                    <div class="legend-color projet"></div>
+                    <span>Projet Montréal</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color ensemble"></div>
+                    <span>Ensemble Montréal</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color mouvement"></div>
+                    <span>Mouvement Montréal</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-container">
+            <h2 style="color: var(--primary-blue); margin-bottom: 1rem; font-size: 2rem;">
+                <i class="fas fa-map-marked-alt"></i> Résultats par District Électoral
+            </h2>
+            <div class="district-grid" id="districtGrid">
+                <div class="loading">Chargement des données des districts...</div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p><i class="fas fa-chart-bar"></i> Données officielles du rapport de recensement des votes - Ville de Montréal</p>
+            <p>Source: <a href="https://elections.montreal.ca" style="color: var(--primary-blue);">Élections Montréal</a></p>
+        </footer>
+    </div>
+</body>
+</html>

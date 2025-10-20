@@ -1,0 +1,295 @@
+:root {
+    --primary-red: #EB0000;
+    --primary-blue: #171C84;
+    --light-bg: #F3F3FC;
+    --light-purple: #E0E1FF;
+    --white: #FFFFFF;
+    --text-dark: #1a1a1a;
+    --text-light: #666666;
+    --side-pad: calc(4rem + 5vw)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--white);
+    min-height: 100vh;
+    color: var(--primary-blue);
+    line-height: 1.6;
+}
+.header {
+    /* text-align: center; */
+    margin-bottom: 3rem;
+    padding: 2rem var(--side-pad);
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-red);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    color: var(--primary-blue);
+    font-weight: 300;
+}
+
+.mayor-section {
+    background: var(--light-purple);
+    padding: 2rem var(--side-pad);
+}
+
+.mayor-section h2 {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    /* margin-bottom: 1rem; */
+}
+
+.mayor-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.mayor-candidate {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.mayor-candidate.winner {
+    background: var(--white);
+    border: var(--primary-red) 4px solid;
+    color: var(--primary-red);
+}
+
+.filters {
+    background: var(--white);
+    padding: 2rem var(--side-pad);
+}
+
+.filters h3 {
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-red);
+    background: var(--white);
+    color: var(--primary-red);
+    /* border-radius: 25px; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--primary-red);
+    color: var(--white);
+}
+
+.search-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--light-purple);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-box:focus {
+    border-color: var(--primary-red);
+}
+
+.grid-container {
+    background: var(--light-purple);
+    padding: 2rem var(--side-pad);
+}
+
+.district-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.district-card {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.district-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--primary-blue);
+}
+
+.district-header {
+    margin-bottom: 1rem;
+}
+
+.district-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-blue);
+    margin-bottom: 0.3rem;
+}
+
+.district-borough {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+.turnout {
+    background: var(--light-purple);
+    color: var(--primary-blue);
+    padding: 0.4rem 0.8rem;
+    /* border-radius: 20px; */
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0.8rem 0;
+}
+
+.candidate-results {
+    space-y: 0.5rem;
+}
+
+.candidate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    margin: 0.3rem 0;
+    /* border-radius: 8px; */
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.candidate.projetmontreal {
+    background: linear-gradient(135deg, #2E8B57, #228B22);
+    color: var(--white);
+}
+
+.candidate.ensemblemontreal {
+    background: linear-gradient(135deg, var(--primary-red), #DC143C);
+    color: var(--white);
+}
+
+.candidate.mouvementmontreal {
+    background: linear-gradient(135deg, #FF6B35, #FF8C00);
+    color: var(--white);
+}
+
+.candidate.other {
+    background: var(--light-bg);
+    color: var(--text-dark);
+}
+
+.percentage {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.legend {
+    background: var(--white);
+    padding: 2rem var(--side-pad);
+}
+
+.legend h3 {
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.legend-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-red)
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+}
+
+.legend-color.projet { background: linear-gradient(135deg, #2E8B57, #228B22); }
+.legend-color.ensemble { background: linear-gradient(135deg, var(--primary-red), #DC143C); }
+.legend-color.mouvement { background: linear-gradient(135deg, #FF6B35, #FF8C00); }
+
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem var(--side-pad);
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .district-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .mayor-results {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-buttons {
+        justify-content: center;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
