@@ -1,0 +1,859 @@
+[
+  {
+    "borough": "Ahuntsic-Cartierville",
+    "turnout_percentage": 42.27,
+    "margin": 18.04,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 56.31 },
+      { "party": "Ensemble Montréal", "percentage": 38.27 },
+      { "party": "Mouvement Montréal", "percentage": 5.42 }
+    ],
+    "districts": [
+      {
+        "name": "Sault-au-Récollet",
+        "turnout_percentage": 47.92,
+        "margin": 22.16,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 58.62 },
+          { "party": "Ensemble Montréal", "percentage": 36.46 },
+          { "party": "Mouvement Montréal", "percentage": 4.92 }
+        ]
+      },
+      {
+        "name": "Saint-Sulpice",
+        "turnout_percentage": 40.47,
+        "margin": 5.59,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 49.96 },
+          { "party": "Ensemble Montréal", "percentage": 44.37 },
+          { "party": "Mouvement Montréal", "percentage": 5.67 }
+        ]
+      },
+      {
+        "name": "Ahuntsic",
+        "turnout_percentage": 48.45,
+        "margin": 35.96,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 66.43 },
+          { "party": "Ensemble Montréal", "percentage": 30.47 },
+          { "party": "Action Montréal", "percentage": 3.10 },
+          { "party": "Mouvement Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Bordeaux-Cartierville",
+        "turnout_percentage": 32.92,
+        "margin": 14.40,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 51.12 },
+          { "party": "Projet Montréal", "percentage": 36.72 },
+          { "party": "Rana Atie", "percentage": 6.62 },
+          { "party": "Mouvement Montréal", "percentage": 5.55 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Anjou",
+    "turnout_percentage": 40.29,
+    "margin": 45.93,
+    "candidates": [
+      { "party": "Équipe Anjou", "percentage": 70.42 },
+      { "party": "Projet Montréal", "percentage": 24.49 },
+      { "party": "Mouvement Montréal", "percentage": 5.09 }
+    ],
+    "districts": [
+      {
+        "name": "l'Ouest",
+        "turnout_percentage": 40.69,
+        "margin": 47.74,
+        "candidates": [
+          { "party": "Équipe Anjou", "percentage": 73.87 },
+          { "party": "Projet Montréal", "percentage": 26.13 }
+        ]
+      },
+      {
+        "name": "l'Est",
+        "turnout_percentage": 38.67,
+        "margin": 37.06,
+        "candidates": [
+          { "party": "Équipe Anjou", "percentage": 68.53 },
+          { "party": "Projet Montréal", "percentage": 31.47 }
+        ]
+      },
+      {
+        "name": "Centre",
+        "turnout_percentage": 40.98,
+        "margin": 45.92,
+        "candidates": [
+          { "party": "Équipe Anjou", "percentage": 72.96 },
+          { "party": "Projet Montréal", "percentage": 27.04 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+    "turnout_percentage": 34.24,
+    "margin": 0.50,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 37.56 },
+      { "party": "Ensemble Montréal", "percentage": 37.06 },
+      { "party": "Mouvement Montréal", "percentage": 11.21 },
+      { "party": "Courage", "percentage": 9.78 },
+      { "party": "Équipe CDN - NDG", "percentage": 3.56 },
+      { "party": "Action Montréal", "percentage": 0.83 }
+    ],
+    "districts": [
+      {
+        "name": "Darlington",
+        "turnout_percentage": 28.25,
+        "margin": 32.01,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 58.56 },
+          { "party": "Projet Montréal", "percentage": 26.55 },
+          { "party": "Mouvement Montréal", "percentage": 7.57 },
+          { "party": "Courage - Sue Montgomery", "percentage": 3.86 }
+        ]
+      },
+      {
+        "name": "Côte-des-Neiges",
+        "turnout_percentage": 34.71,
+        "margin": 29.25,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 55.29 },
+          { "party": "Ensemble Montréal", "percentage": 26.04 },
+          { "party": "Courage - Sue Montgomery", "percentage": 8.97 },
+          { "party": "Mouvement Montréal", "percentage": 7.73 }
+        ]
+      },
+      {
+        "name": "Snowdon",
+        "turnout_percentage": 29.95,
+        "margin": 15.16,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 46.84 },
+          { "party": "Projet Montréal", "percentage": 31.68 },
+          { "party": "Mouvement Montréal", "percentage": 11.88 },
+          { "party": "Courage - Sue Montgomery", "percentage": 6.81 }
+        ]
+      },
+      {
+        "name": "Notre-Dame-de-Grâce",
+        "turnout_percentage": 41.46,
+        "margin": 39.62,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 58.16 },
+          { "party": "Ensemble Montréal", "percentage": 18.54 },
+          { "party": "Mouvement Montréal", "percentage": 11.00 },
+          { "party": "Courage - Sue Montgomery", "percentage": 9.62 }
+        ]
+      },
+      {
+        "name": "Loyola",
+        "turnout_percentage": 35.49,
+        "margin": 1.38,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 30.23 },
+          { "party": "Ensemble Montréal", "percentage": 28.85 },
+          { "party": "Mouvement Montréal", "percentage": 15.40 },
+          { "party": "Joe Ortona", "percentage": 9.71 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Lachine",
+    "turnout_percentage": 39.24,
+    "margin": 24.42,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 62.21 },
+      { "party": "Ensemble Montréal", "percentage": 37.79 },
+      { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+    ],
+    "districts": [
+      {
+        "name": "Canal",
+        "turnout_percentage": 34.89,
+        "margin": 13.20,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 51.05 },
+          { "party": "Ensemble Montréal", "percentage": 37.85 },
+          { "party": "Mouvement Montréal", "percentage": 6.99 },
+          { "party": "Action Montréal", "percentage": 2.30 }
+        ]
+      },
+      {
+        "name": "Disrict de J.-Émery-Provost",
+        "turnout_percentage": 31.74,
+        "margin": 15.00,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 57.50 },
+          { "party": "Ensemble Montréal", "percentage": 42.50 }
+        ]
+      },
+      {
+        "name": "Fort-Rolland",
+        "turnout_percentage": 51.56,
+        "margin": 29.50,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 64.75 },
+          { "party": "Ensemble Montréal", "percentage": 35.25 },
+          { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "LaSalle",
+    "turnout_percentage": 30.87,
+    "margin": 27.90,
+    "candidates": [
+      { "party": "Équipe LaSalle Team", "percentage": 48.21 },
+      { "party": "Ensemble Montréal", "percentage": 20.31 },
+      { "party": "Projet Montréal", "percentage": 20.08 },
+      { "party": "Mouvement Montréal", "percentage": 8.18 },
+      { "party": "Action Montréal", "percentage": 3.22 }
+    ],
+    "districts": [
+      {
+        "name": "Sault-Saint-Louis",
+        "turnout_percentage": 33.68,
+        "margin": 25.32,
+        "candidates": [
+          { "party": "Équipe LaSalle Team", "percentage": 51.34 },
+          { "party": "Projet Montréal", "percentage": 26.02 },
+          { "party": "Ensemble Montréal", "percentage": 19.42 },
+          { "party": "Action Montréal", "percentage": 3.22 }
+        ]
+      },
+      {
+        "name": "Cecil-P.-Newman",
+        "turnout_percentage": 27.41,
+        "margin": 14.60,
+        "candidates": [
+          { "party": "Équipe LaSalle Team", "percentage": 39.89 },
+          { "party": "Ensemble Montréal", "percentage": 25.29 },
+          { "party": "Projet Montréal", "percentage": 21.19 },
+          { "party": "Mouvement Montréal", "percentage": 10.82 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "L'Île-Bizard–Sainte-Geneviève",
+    "turnout_percentage": 49.00,
+    "margin": 14.08,
+    "candidates": [
+      { "party": "Ensemble Montréal", "percentage": 48.01 },
+      { "party": "Projet Montréal", "percentage": 33.93 },
+      { "party": "Mouvement Montréal", "percentage": 18.06 }
+    ],
+    "districts": [
+      {
+        "name": "Pierre-Foretier",
+        "turnout_percentage": 51.63,
+        "margin": 8.90,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 48.16 },
+          { "party": "Projet Montréal", "percentage": 39.26 },
+          { "party": "Mouvement Montréal", "percentage": 12.58 }
+        ]
+      },
+      {
+        "name": "Denis-Benjamin-Viger",
+        "turnout_percentage": 53.87,
+        "margin": 5.18,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 44.56 },
+          { "party": "Projet Montréal", "percentage": 39.38 },
+          { "party": "Mouvement Montréal", "percentage": 16.06 }
+        ]
+      },
+      {
+        "name": "Jacques-Bizard",
+        "turnout_percentage": 48.66,
+        "margin": 15.01,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 46.73 },
+          { "party": "Projet Montréal", "percentage": 31.72 },
+          { "party": "Mouvement Montréal", "percentage": 21.55 }
+        ]
+      },
+      {
+        "name": "Sainte-Geneviève",
+        "turnout_percentage": 36.59,
+        "margin": 4.71,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 43.17 },
+          { "party": "Projet Montréal", "percentage": 38.46 },
+          { "party": "Mouvement Montréal", "percentage": 18.37 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Mercier–Hochelaga-Maisonneuve",
+    "turnout_percentage": 41.55,
+    "margin": 10.87,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 51.24 },
+      { "party": "Ensemble Montréal", "percentage": 40.37 },
+      { "party": "Mouvement Montréal", "percentage": 6.15 },
+      { "party": "Action Montréal", "percentage": 2.24 },
+      { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+    ],
+    "districts": [
+      {
+        "name": "Tétreaultville",
+        "turnout_percentage": 42.63,
+        "margin": 0.50,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 46.56 },
+          { "party": "Projet Montréal", "percentage": 46.06 },
+          { "party": "Mouvement Montréal", "percentage": 3.80 },
+          { "party": "Action Montréal", "percentage": 3.58 }
+        ]
+      },
+      {
+        "name": "Maisonneuve-Longue-Pointe",
+        "turnout_percentage": 39.54,
+        "margin": 22.53,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 57.95 },
+          { "party": "Ensemble Montréal", "percentage": 35.42 },
+          { "party": "Action Montréal", "percentage": 6.63 },
+          { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Hochelaga",
+        "turnout_percentage": 39.75,
+        "margin": 38.56,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 65.70 },
+          { "party": "Ensemble Montréal", "percentage": 27.14 },
+          { "party": "Ariane Beaudin", "percentage": 7.16 },
+          { "party": "Mouvement Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Louis-Riel",
+        "turnout_percentage": 44.54,
+        "margin": 6.48,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 50.48 },
+          { "party": "Projet Montréal", "percentage": 44.00 },
+          { "party": "Mouvement Montréal", "percentage": 5.51 },
+          { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Montréal-Nord",
+    "turnout_percentage": 33.53,
+    "margin": 34.95,
+    "candidates": [
+      { "party": "Ensemble Montréal", "percentage": 64.24 },
+      { "party": "Projet Montréal", "percentage": 29.29 },
+      { "party": "Mouvement Montréal", "percentage": 4.44 },
+      { "party": "Action Montréal", "percentage": 2.03 }
+    ],
+    "districts": [
+      {
+        "name": "Marie-Clarac",
+        "turnout_percentage": 34.11,
+        "margin": 22.10,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 61.05 },
+          { "party": "Projet Montréal", "percentage": 38.95 }
+        ]
+      },
+      {
+        "name": "Ovide-Clermont",
+        "turnout_percentage": 32.93,
+        "margin": 35.24,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 67.62 },
+          { "party": "Projet Montréal", "percentage": 32.38 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Outremont",
+    "turnout_percentage": 55.98,
+    "margin": 0.38,
+    "candidates": [
+      { "party": "Ensemble Montréal", "percentage": 50.19 },
+      { "party": "Projet Montréal", "percentage": 49.81 },
+      { "party": "Mouvement Montréal", "percentage": 0.00 }
+    ],
+    "districts": [
+      {
+        "name": "Claude-Ryan",
+        "turnout_percentage": 53.46,
+        "margin": 63.06,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 81.53 },
+          { "party": "Mouvement Montréal", "percentage": 18.47 },
+          { "party": "Ensemble Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Joseph-Beaubien",
+        "turnout_percentage": 60.55,
+        "margin": 9.64,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 43.00 },
+          { "party": "Parti Outremont", "percentage": 33.36 },
+          { "party": "Ensemble Montréal", "percentage": 23.64 },
+          { "party": "Mouvement Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Robert-Bourassa",
+        "turnout_percentage": 53.83,
+        "margin": 3.85,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 42.32 },
+          { "party": "Projet Montréal", "percentage": 38.47 },
+          { "party": "Parti Outremont", "percentage": 19.21 },
+          { "party": "Mouvement Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Jeanne-Sauvé",
+        "turnout_percentage": 55.22,
+        "margin": 6.62,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 41.39 },
+          { "party": "Projet Montréal", "percentage": 34.77 },
+          { "party": "Parti Outremont", "percentage": 23.84 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Pierrefonds-Roxboro",
+    "turnout_percentage": 30.50,
+    "margin": 35.14,
+    "candidates": [
+      { "party": "Ensemble Montréal", "percentage": 60.57 },
+      { "party": "Projet Montréal", "percentage": 25.43 },
+      { "party": "Mouvement Montréal", "percentage": 14.00 }
+    ],
+    "districts": [
+      {
+        "name": "Bois-de-Liesse",
+        "turnout_percentage": 31.02,
+        "margin": 22.19,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 52.15 },
+          { "party": "Projet Montréal", "percentage": 29.96 },
+          { "party": "Mouvement Montréal", "percentage": 17.89 }
+        ]
+      },
+      {
+        "name": "Cap-Saint-Jacques",
+        "turnout_percentage": 29.97,
+        "margin": 18.25,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 49.32 },
+          { "party": "Projet Montréal", "percentage": 31.07 },
+          { "party": "Mouvement Montréal", "percentage": 19.62 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Le Plateau-Mont-Royal",
+    "turnout_percentage": 44.72,
+    "margin": 56.65,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 74.63 },
+      { "party": "Ensemble Montréal", "percentage": 17.98 },
+      { "party": "Mouvement Montréal", "percentage": 7.39 }
+    ],
+    "districts": [
+      {
+        "name": "Mile-End",
+        "turnout_percentage": 45.81,
+        "margin": 58.51,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 75.16 },
+          { "party": "Ensemble Montréal", "percentage": 16.65 },
+          { "party": "Mouvement Montréal", "percentage": 8.19 }
+        ]
+      },
+      {
+        "name": "DeLorimier",
+        "turnout_percentage": 48.83,
+        "margin": 46.85,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 65.72 },
+          { "party": "Juliette CÔTÉ-TURCOTTE", "percentage": 18.87 },
+          { "party": "Ensemble Montréal", "percentage": 15.41 }
+        ]
+      },
+      {
+        "name": "Jeanne-Mance",
+        "turnout_percentage": 39.48,
+        "margin": 47.38,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 69.17 },
+          { "party": "Ensemble Montréal", "percentage": 21.79 },
+          { "party": "Mouvement Montréal", "percentage": 7.69 },
+          { "party": "Action Montréal", "percentage": 1.35 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Rivière-des-Prairies–Pointe-aux-Trembles",
+    "turnout_percentage": 38.86,
+    "margin": 0.45,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 47.59 },
+      { "party": "Ensemble Montréal", "percentage": 47.14 },
+      { "party": "Mouvement Montréal", "percentage": 5.27 }
+    ],
+    "districts": [
+      {
+        "name": "La Pointe-aux-Prairies",
+        "turnout_percentage": 38.35,
+        "margin": 0.13,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 47.37 },
+          { "party": "Ensemble Montréal", "percentage": 47.24 },
+          { "party": "Mouvement Montréal", "percentage": 5.40 }
+        ]
+      },
+      {
+        "name": "Pointe-aux-Trembles",
+        "turnout_percentage": 40.51,
+        "margin": 13.12,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 56.56 },
+          { "party": "Ensemble Montréal", "percentage": 43.44 }
+        ]
+      },
+      {
+        "name": "Rivière-des-Prairies",
+        "turnout_percentage": 37.68,
+        "margin": 34.94,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 63.89 },
+          { "party": "Projet Montréal", "percentage": 28.95 },
+          { "party": "Action Montréal", "percentage": 7.16 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Rosemont–La Petite-Patrie",
+    "turnout_percentage": 47.94,
+    "margin": 40.14,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 70.07 },
+      { "party": "Ensemble Montréal", "percentage": 29.93 }
+    ],
+    "districts": [
+      {
+        "name": "Saint-Édouard",
+        "turnout_percentage": 48.66,
+        "margin": 56.72,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 75.17 },
+          { "party": "Ensemble Montréal", "percentage": 18.45 },
+          { "party": "Mouvement Montréal", "percentage": 6.38 },
+          { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+        ]
+      },
+      {
+        "name": "Étienne-Desmarteaux",
+        "turnout_percentage": 51.66,
+        "margin": 49.21,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 72.23 },
+          { "party": "Ensemble Montréal", "percentage": 23.02 },
+          { "party": "Mouvement Montréal", "percentage": 2.43 },
+          { "party": "Action Montréal", "percentage": 2.32 }
+        ]
+      },
+      {
+        "name": "Vieux-Rosemont",
+        "turnout_percentage": 47.34,
+        "margin": 41.40,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 70.70 },
+          { "party": "Ensemble Montréal", "percentage": 29.30 }
+        ]
+      },
+      {
+        "name": "Marie-Victorin",
+        "turnout_percentage": 44.03,
+        "margin": 11.40,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 55.70 },
+          { "party": "Ensemble Montréal", "percentage": 44.30 },
+          { "party": "Mouvement Montréal", "percentage": 0.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Saint-Laurent",
+    "turnout_percentage": 28.97,
+    "margin": 48.52,
+    "candidates": [
+      { "party": "Ensemble Montréal", "percentage": 69.93 },
+      { "party": "Projet Montréal", "percentage": 21.41 },
+      { "party": "Mouvement Montréal", "percentage": 7.33 },
+      { "party": "Philippe Tessier", "percentage": 1.34 }
+    ],
+    "districts": [
+      {
+        "name": "la Côte-de-Liesse",
+        "turnout_percentage": 29.65,
+        "margin": 28.82,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 59.13 },
+          { "party": "Projet Montréal", "percentage": 30.31 },
+          { "party": "Mouvement Montréal", "percentage": 10.56 }
+        ]
+      },
+      {
+        "name": "Norman-McLaren",
+        "turnout_percentage": 27.80,
+        "margin": 29.32,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 64.66 },
+          { "party": "Projet Montréal", "percentage": 35.34 }
+        ]
+      },
+      {
+        "name": "Norman-McLaren",
+        "turnout_percentage": 27.86,
+        "margin": 23.48,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 61.74 },
+          { "party": "Projet Montréal", "percentage": 38.26 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Saint-Léonard",
+    "turnout_percentage": 32.68,
+    "margin": 46.31,
+    "candidates": [
+      { "party": "Ensemble Montréal", "percentage": 64.30 },
+      { "party": "Mouvement Montréal", "percentage": 17.99 },
+      { "party": "Projet Montréal", "percentage": 17.71 },
+      { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+    ],
+    "districts": [
+      {
+        "name": "Saint-Léonard-Est",
+        "turnout_percentage": 34.10,
+        "margin": 46.02,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 62.90 },
+          { "party": "Projet Montréal", "percentage": 16.88 },
+          { "party": "Mouvement Montréal", "percentage": 11.97 },
+          { "party": "Dallal Boukhari", "percentage": 8.26 }
+        ]
+      },
+      {
+        "name": "Saint-Léonard-Ouest",
+        "turnout_percentage": 31.64,
+        "margin": 34.89,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 57.55 },
+          { "party": "Mouvement Montréal", "percentage": 22.66 },
+          { "party": "Projet Montréal", "percentage": 19.78 },
+          { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Le Sud-Ouest",
+    "turnout_percentage": 35.08,
+    "margin": 27.57,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 57.45 },
+      { "party": "Ensemble Montréal", "percentage": 29.88 },
+      { "party": "Mouvement Montréal", "percentage": 12.67 }
+    ],
+    "districts": [
+      {
+        "name": "St-Henri-Petite-Bourgogne-Pte-St-Charles",
+        "turnout_percentage": 34.74,
+        "margin": 21.27,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 52.82 },
+          { "party": "Ensemble Montréal", "percentage": 31.55 },
+          { "party": "Mouvement Montréal", "percentage": 15.63 }
+        ]
+      },
+      {
+        "name": "Saint-Paul-Émard",
+        "turnout_percentage": 35.41,
+        "margin": 27.83,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 57.61 },
+          { "party": "Ensemble Montréal", "percentage": 29.78 },
+          { "party": "Mouvement Montréal", "percentage": 9.67 },
+          { "party": "Action Montréal", "percentage": 2.94 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Verdun",
+    "turnout_percentage": 42.75,
+    "margin": 36.81,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 64.81 },
+      { "party": "Ensemble Montréal", "percentage": 28.00 },
+      { "party": "Mouvement Montréal", "percentage": 7.20 },
+      { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+    ],
+    "districts": [
+      {
+        "name": "Champlain-L'Île-des-Soeurs",
+        "turnout_percentage": 43.09,
+        "margin": 24.84,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 56.71 },
+          { "party": "Ensemble Montréal", "percentage": 31.87 },
+          { "party": "Mouvement Montréal", "percentage": 6.10 },
+          { "party": "Alain Bossé", "percentage": 5.32 }
+        ]
+      },
+      {
+        "name": "Desmarchais-Crawford",
+        "turnout_percentage": 42.42,
+        "margin": 43.89,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 68.43 },
+          { "party": "Ensemble Montréal", "percentage": 24.54 },
+          { "party": "Mouvement Montréal", "percentage": 7.03 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Ville-Marie",
+    "turnout_percentage": 38.32,
+    "margin": 14.17,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 52.14 },
+      { "party": "Ensemble Montréal", "percentage": 37.97 },
+      { "party": "Mouvement Montréal", "percentage": 7.23 },
+      { "party": "Action Montréal", "percentage": 1.03 },
+      { "party": "Beverly Bernardo", "percentage": 0.42 },
+      { "party": "Montréal 2021", "percentage": 0.40 },
+      { "party": "Jean Duval", "percentage": 0.27 },
+      { "party": "Fang HU", "percentage": 0.25 },
+      { "party": "Dimitri Mourkes", "percentage": 0.20 },
+      { "party": "Widler Jules", "percentage": 0.08 }
+    ],
+    "districts": [
+      {
+        "name": "Peter-McGill",
+        "turnout_percentage": 26.75,
+        "margin": 3.32,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 39.71 },
+          { "party": "Projet Montréal", "percentage": 36.39 },
+          { "party": "Mouvement Montréal", "percentage": 23.06 },
+          { "party": "Action Montréal", "percentage": 0.84 }
+        ]
+      },
+      {
+        "name": "Saint-Jacques",
+        "turnout_percentage": 35.78,
+        "margin": 27.49,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 59.45 },
+          { "party": "Ensemble Montréal", "percentage": 31.96 },
+          { "party": "Mouvement Montréal", "percentage": 8.60 }
+        ]
+      },
+      {
+        "name": "Sainte-Marie",
+        "turnout_percentage": 39.61,
+        "margin": 39.97,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 66.62 },
+          { "party": "Ensemble Montréal", "percentage": 26.65 },
+          { "party": "Mouvement Montréal", "percentage": 5.01 },
+          { "party": "Action Montréal", "percentage": 1.72 }
+        ]
+      }
+    ]
+  },
+  {
+    "borough": "Villeray–St-Michel–Parc-Ex",
+    "turnout_percentage": 36.85,
+    "margin": 21.15,
+    "candidates": [
+      { "party": "Projet Montréal", "percentage": 53.46 },
+      { "party": "Ensemble Montréal", "percentage": 32.31 },
+      { "party": "Quartiers Montréal", "percentage": 7.37 },
+      { "party": "Mouvement Montréal", "percentage": 5.46 },
+      { "party": "Action Montréal", "percentage": 1.39 },
+      { "party": "Ralliement pour Montréal", "percentage": 0.00 }
+    ],
+    "districts": [
+      {
+        "name": "Saint-Michel",
+        "turnout_percentage": 24.28,
+        "margin": 25.41,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 53.74 },
+          { "party": "Projet Montréal", "percentage": 28.33 },
+          { "party": "Quartiers Montréal", "percentage": 6.21 },
+          { "party": "Action Montréal", "percentage": 5.92 }
+        ]
+      },
+      {
+        "name": "François-Perrault",
+        "turnout_percentage": 36.07,
+        "margin": 25.30,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 57.54 },
+          { "party": "Ensemble Montréal", "percentage": 32.24 },
+          { "party": "Mouvement Montréal", "percentage": 5.74 },
+          { "party": "Quartiers Montréal", "percentage": 4.49 }
+        ]
+      },
+      {
+        "name": "Villeray",
+        "turnout_percentage": 50.33,
+        "margin": 46.89,
+        "candidates": [
+          { "party": "Projet Montréal", "percentage": 68.70 },
+          { "party": "Ensemble Montréal", "percentage": 21.81 },
+          { "party": "Quartiers Montréal", "percentage": 5.90 },
+          { "party": "Mouvement Montréal", "percentage": 3.59 }
+        ]
+      },
+      {
+        "name": "Parc-Extension",
+        "turnout_percentage": 35.61,
+        "margin": 5.74,
+        "candidates": [
+          { "party": "Ensemble Montréal", "percentage": 43.23 },
+          { "party": "Projet Montréal", "percentage": 37.49 },
+          { "party": "Quartiers Montréal", "percentage": 9.01 },
+          { "party": "Mouvement Montréal", "percentage": 8.56 }
+        ]
+      }
+    ]
+  }
+]
