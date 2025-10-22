@@ -35,11 +35,19 @@ function loadElectoralData() {
             const allDistricts = [];
             boroughsData.forEach(borough => {
                 const boroughName = borough.borough;
-                // Add each district from the borough, attaching the borough's name
+                // Capture borough-level data (margin, turnout)
+                const boroughMargin = borough.margin;
+                const boroughTurnout = borough.turnout_percentage;
+                
+                // Add each district from the borough, attaching the borough's name AND data
                 borough.districts.forEach(district => {
                     allDistricts.push({
                         ...district, // Spread all properties from the district object
-                        borough: boroughName // Add the parent borough's name
+                        borough: boroughName, // Add the parent borough's name
+                        // --- NEW: Add borough-level data for the card display ---
+                        borough_mayor_margin: boroughMargin,
+                        borough_mayor_turnout: boroughTurnout
+                        // --------------------------------------------------------
                     });
                 });
             });
@@ -199,6 +207,9 @@ function renderDistrictGrid() {
             </div>
             <div class="turnout">
                 <i class="fas fa-users"></i> Participation: ${district.turnout_percentage}%
+            </div>
+            <div class="borough-mayor-margin">
+                <i class="fas fa-balance-scale"></i> Marge d'opposition: <strong>${district.margin}%</strong>
             </div>
             <div class="candidate-results">
                 ${candidatesHtml}
